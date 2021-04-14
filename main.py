@@ -98,8 +98,8 @@ def checkCoins(quarters, dimes, nickles, pennies, drink):
 
 def addResources():
     water = int(input("How much water do you want to add? "))
-    milk = int(input("How much water do you want to add? "))
-    coffee = int(input("How much water do you want to add? "))
+    milk = int(input("How much milk do you want to add? "))
+    coffee = int(input("How much coffee do you want to add? "))
 
     resources['water'] = resources['water'] + water
     resources['milk'] = resources['milk'] + milk
